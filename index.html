@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .container {
+            height: 200px;
+            position: relative;
+            border: 3px solid rgb(100, 55, 140);
+        }
+
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStarage Counter Test Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body id="body">
+
+    <div id="alert"></div>
+
+    <h1 id="greeting" style="text-align: center ;color :crimson">LocalStorege Test Project</h1>
+
+
+    <style>
+        .text_primary {
+            color: blue;
+        }
+
+        .text_danger {
+            color: red;
+        }
+
+        .text_warning {
+            color: yellow;
+        }
+    </style>
+    <h2 id="info"></h2>
+
+    
+<div class="container">
+    <div class="center">
+        <h2 id='counter' style="text-align:center">0</h2>
+        <button id="increase">Increase</button>
+        <button id="decrease">Decrease</button>
+    </div>
+  </div>
+   
+    <ul class="list-group" id="userList">
+
+    </ul>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+  
+    <script src="js/026-localStorage-bolum-sonu-egzersizi.js"></script>
+</body>
+
+</html>
